@@ -5,11 +5,11 @@ import uuid
 import pytz
 import MySQLdb
 
-esURL = 'http://api.karek.co:9200/reco/'
-mysqlHost = '103.23.22.215'
-mysqlUser = 'priority'
-mysqlPassword = 'm18Baj6^'
-mysqlPort = 43306
+esURL = 'localhost:9200/UR'
+mysqlHost = 'localhost'
+mysqlUser = 'root'
+mysqlPassword = '123456'
+mysqlPort = 3306
 
 def test():
 	query = {
